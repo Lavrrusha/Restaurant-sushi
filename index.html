@@ -11,11 +11,71 @@
   <body>
     <!-- шапка -->
     <header class="header">
-      <div class="header__line"></div>
-      
+      <div class="wrapper">
+        <div class="header__line">
+          <div class="header__logotype">
+            <img src="./image/logotype.svg" alt="logotype" width="100" />
+          </div>
+
+          <div class="header__card">
+            <!-- навигация по меню -->
+            <nav class="menu-navigation">
+              <ul class="menu-navigation__list list-reset">
+                <li class="menu-navigation__item">
+                  <a class="menu-navigation__link" href="#">Главная</a>
+                </li>
+
+                <li class="menu-navigation__item">
+                  <a class="menu-navigation__link" href="#">Меню</a>
+                </li>
+
+                <li class="menu-navigation__item">
+                  <a class="menu-navigation__link" href="#">О нас</a>
+                </li>
+
+                <li class="menu-navigation__item">
+                  <a class="menu-navigation__link" href="#">Бронь</a>
+                </li>
+              </ul>
+
+              <div class="menu-navigation__cart">
+                <img src="./image/cart.png" alt="корзина" />
+              </div>
+            </nav>
+
+            <div class="header-contacts">
+              <a class="header-contacts__phone" href="tel:+9998887654"
+                >+999-888-76-54</a
+              >
+              <p class="header-contacts__text">
+                Свяжитесь с нами для бронирования
+              </p>
+            </div>
+
+            <div class="header-contacts__button">
+              <button class="button" type="button">Заказ столика</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <main></main>
+    <main>
+      <!-- главный экран -->
+      <section class="first-screen">
+        <div class="wrapper">
+          <div class="first-screen__card">
+            <h1 class="first-screen__title">
+              Добро пожаловать в <span>Наш ресторан</span>
+            </h1>
+            <p class="first-screen__description">Дом лучшей еды</p>
+            <div class="first-screen__button">
+              <button class="button" type="button">View menu</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- подвал -->
     <footer class="footer"></footer>

@@ -1,0 +1,19 @@
+.button {
+    border: none;
+    display: flex;
+    width: max-content;
+    line-height: normal;
+    padding: 16px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: var(--font-family);
+    background-color: var(--accent);
+    color: var(--white);
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        transition: var(--transition);
+        background-color: var(--second);
+    }
+}

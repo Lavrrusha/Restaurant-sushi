@@ -1,10 +1,15 @@
-@use '/css/base/fonts';
-@use '/css/base/root';
-@use '/css/base/global';
-@use '/css/base/support';
-@use '/css/base/button';
-@use '/css/base/wrapper';
+@use './base/fonts';
+@use './base/root';
+@use './base/global';
+@use './base/support';
+@use './base/button';
+@use './base/wrapper';
 
 // секции
 
-@use '/css/sections/header';
+@use'./sections/header';
+@use'./sections/menu-navigation';
+@use'./sections/header-contacts';
+
+@use './sections/first-screen';
+
