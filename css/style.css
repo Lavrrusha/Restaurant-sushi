@@ -322,4 +322,42 @@ input[type=radio].visually-hidden {
 .first-screen__button {
   display: flex;
   justify-content: center;
+}
+
+.benefits__card {
+  position: relative;
+  bottom: 80px;
+}
+.benefits__title {
+  margin: 0;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 26px;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+.benefits__title span {
+  color: var(--third);
+}
+.benefits__image {
+  display: flex;
+  justify-content: center;
+}
+.benefits__text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 26px;
+  color: var(--text);
+  margin: 0;
+}
+.benefits__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+.benefits__item {
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+  background: var(--white);
+  padding: 48px 40px 25px;
 }/*# sourceMappingURL=style.css.map */
