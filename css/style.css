@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-display: swap;
   font-family: "Tinos";
@@ -144,6 +145,16 @@ input[type=radio].visually-hidden {
   max-width: 1480px;
   padding-inline: 20px;
   margin: 0 auto;
+}
+
+.title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 54px;
+  color: var(--black);
+}
+.title span {
+  color: var(--second);
 }
 
 .header {
@@ -326,7 +337,7 @@ input[type=radio].visually-hidden {
 
 .benefits__card {
   position: relative;
-  bottom: 80px;
+  bottom: 70px;
 }
 .benefits__title {
   margin: 0;
@@ -359,5 +370,24 @@ input[type=radio].visually-hidden {
 .benefits__item {
   box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
   background: var(--white);
-  padding: 48px 40px 25px;
+  padding: 45px 40px;
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+.benefits__item:hover {
+  transform: scale(1.02);
+  box-shadow: 15px 15px 50px 25px rgba(10, 10, 10, 0.2);
+}
+.benefits__item:hover .benefits__text {
+  position: relative;
+}
+.benefits__item:hover .benefits__text::after {
+  content: " ✓ Бесплатная доставка!";
+  color: var(--accent);
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 24px;
 }/*# sourceMappingURL=style.css.map */
