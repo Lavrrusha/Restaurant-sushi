@@ -142,12 +142,13 @@ input[type=radio].visually-hidden {
 }
 
 .wrapper {
-  max-width: 1480px;
+  max-width: 1240px;
   padding-inline: 20px;
   margin: 0 auto;
 }
 
 .title {
+  margin: 0;
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 54px;
@@ -335,6 +336,9 @@ input[type=radio].visually-hidden {
   justify-content: center;
 }
 
+.benefits {
+  margin-bottom: 100px;
+}
 .benefits__card {
   position: relative;
   bottom: 70px;
@@ -390,4 +394,41 @@ input[type=radio].visually-hidden {
   right: 0;
   text-align: center;
   font-size: 24px;
+}
+
+.about-us .title {
+  margin-bottom: 20px;
+}
+.about-us__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.about-us__left {
+  text-align: center;
+  width: 444px;
+  height: 422px;
+}
+.about-us__text {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 80px;
+}
+.about-us__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.about-us__item {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--black);
+}
+.about-us__item span {
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--third);
+  margin-bottom: 5px;
 }/*# sourceMappingURL=style.css.map */

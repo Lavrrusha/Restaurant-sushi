@@ -1,0 +1,48 @@
+.about-us {
+
+    & .title {
+        margin-bottom: 20px;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    &__left {
+        text-align: center;
+        width: 444px;
+        height: 422px;
+    }
+
+    &__text {
+        margin: 0;
+        color: var(--text);
+        line-height: 1.6;
+        margin-bottom: 80px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        font-size: 20px;
+        color: var(--black);
+
+        span {
+            font-weight: 400;
+            font-size: 40px;
+            color: var(--third);
+            margin-bottom: 5px;
+        }
+    }
+
+
+
+}
